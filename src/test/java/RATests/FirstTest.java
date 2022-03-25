@@ -10,8 +10,8 @@ public class FirstTest {
         given()
                 .baseUri("https://api.trello.com/1/")
                 .when()
-                .get("members/me")
+                .get("members/agatakaraskiewicz2")
                 .then()
-                .statusCode(404);
+                .statusCode(200);
     }
 }
